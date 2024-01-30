@@ -8,7 +8,7 @@
 .instruction,
 .book {
     position: absolute;
-    top: 90%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -1204,3 +1204,11 @@ body {
     padding: 10px 15px;
     margin-top: 10%;
   }
+@media screen and (max-width: 600px)
+{
+    .instruction,
+    .book{
+        position: absolute;
+        top:90%
+    }
+}
