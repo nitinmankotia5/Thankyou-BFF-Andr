@@ -1204,11 +1204,3 @@ body {
     padding: 10px 15px;
     margin-top: 10%;
   }
-@media screen and (max-width: 600px)
-{
-    .instruction,
-    .book{
-        position: absolute;
-        top:20%
-    }
-}
